@@ -1,0 +1,19 @@
+name: graph
+description: >-
+  A directed graph data structures and associated helpers.
+  Supports multiple distinct, directed edges between nodes and JSON
+  serialization.
+version: 0.1.0-dev
+homepage: https://github.com/kevmoo/graph
+author: Kevin Moore <kevmoo@google.com>
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+dependencies:
+  collection: ^1.14.10
+  graphs: ^0.2.0
+
+dev_dependencies:
+  pedantic: ^1.3.0
+  test: ^1.3.4
